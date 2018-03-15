@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from '../../logo.svg';
 import './Header.css';
 
@@ -11,7 +11,7 @@ const AppIntro = "Venda conteúdo digital por Bitcoin, Ethereum ou Litecoin"
 function Header(props) {
     return (
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <h1 className="App-title">{AppTitle}</h1>
             <p className="App-intro">
               {AppIntro}

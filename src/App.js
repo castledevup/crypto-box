@@ -10,24 +10,23 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        
-        <Header />
+    <div className="App">
+      <Header />
     <div className="grid">
-
       <Sidebar />
-
-      <div className="card">      
-          <ul className="how-it-works">
-              <form>
-              <li><h3>1. Faça o Upload do arquivo <input type="file" /></h3></li>
-              <li><h3>2. Determine o preço <input type="text" placeholder="Preço" /></h3></li>
-              <li><h3>3. Insira o endereço da carteira <input type="text" placeholder="Endereço da carteira" /> </h3></li>
+      <div className="card">
+              <form className="fileForm">
+                <label className="formLabel">Arquivo</label>
+                <input className="form-control fileInput" type="file" ref="FileInput" />
+                <label className="formLabel">Preço</label>
+                <input className="form-control" type="text" ref="PriceInput" placeholder="Preço" />
+                <label className="formLabel">Endereço da carteira</label>
+                <input className="form-control" type="text" ref="AddressInput" placeholder="Endereço da carteira para receber pagamento" />
+                <br/>
+                <button className="btn btn-primary btn-lg">Finalizar</button>
               </form>
-            </ul>
+            </div>
           </div>
-            
-          </div>  
       </div>
     );
   }
