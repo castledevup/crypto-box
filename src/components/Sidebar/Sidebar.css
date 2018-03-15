@@ -1,0 +1,22 @@
+.sidebar {
+  margin-top: 1em;
+  background-color: white;
+  border-radius: 3px;
+  padding: 1em;
+  height: auto;
+}
+
+.sidebar-title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #111;
+}
+
+.step-by-step {
+    padding: 0em;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #111;
+    opacity: 0.7;
+}
