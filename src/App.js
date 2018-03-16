@@ -13,7 +13,7 @@ class App extends Component {
     <div className="App">
       <Header />
     <div className="grid">
-      <Sidebar />
+      <Sidebar /> 
       <div className="card">
               <form className="fileForm">
                 <label className="formLabel">Arquivo</label>

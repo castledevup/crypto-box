@@ -6,7 +6,7 @@ import './Sidebar.css';
 function Sidebar (props) {
     return (
         <aside className="sidebar">
-        <h2 className="sidebar-title">Como o CryptoBox funciona</h2>
+        <h2 className="sidebar-title">Como o CryptoBox funciona:</h2>
         <ul className="step-by-step">
         <li><p>1. Faça upload do arquivo</p></li>
         <li><p>2. Determine o valor</p></li>
